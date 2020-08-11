@@ -1,4 +1,6 @@
 importers:
+  .:
+    specifiers: {}
   packages/rollup-plugin-glob-imports:
     dependencies:
       fast-glob: 3.2.4
