@@ -16,7 +16,7 @@
 		"@rollup/plugin-alias": "^3.1.1",
 		"@rollup/plugin-commonjs": "^14.0.0",
 		"@rollup/plugin-node-resolve": "^8.4.0",
-		"esbuild": "^0.6.19",
+		"esbuild": "^0.6.20",
 		"rollup": "^2.23.1",
 		"rollup-plugin-esbuild": "^2.4.2",
 		"rollup-plugin-glob-imports": "workspace:^1.0.0",

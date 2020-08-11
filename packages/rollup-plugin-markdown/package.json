@@ -3,8 +3,8 @@
 	"name": "rollup-plugin-markdown",
 	"version": "1.0.0",
 	"dependencies": {
-		"@rollup/pluginutils": "^3.1.0",
 		"@mapbox/rehype-prism": "^0.5.0",
+		"@rollup/pluginutils": "^3.1.0",
 		"gray-matter": "^4.0.2",
 		"rehype-stringify": "^8.0.0",
 		"rehype-urls": "^1.1.1",
@@ -16,6 +16,6 @@
 		"rollup": "^2.0.0"
 	},
 	"devDependencies": {
-		"rollup": "^2.0.0"
+		"rollup": "^2.23.1"
 	}
 }

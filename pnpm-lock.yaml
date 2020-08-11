@@ -7,12 +7,12 @@ importers:
       rollup: 2.23.1
     specifiers:
       fast-glob: ^3.2.4
-      rollup: ^2.0.0
+      rollup: ^2.23.1
       upath: ^1.2.0
   packages/rollup-plugin-markdown:
     dependencies:
       '@mapbox/rehype-prism': 0.5.0
-      '@rollup/pluginutils': 3.1.0
+      '@rollup/pluginutils': 3.1.0_rollup@2.23.1
       gray-matter: 4.0.2
       rehype-stringify: 8.0.0
       rehype-urls: 1.1.1
@@ -29,7 +29,7 @@ importers:
       rehype-urls: ^1.1.1
       remark-parse: ^8.0.3
       remark-rehype: ^7.0.0
-      rollup: ^2.0.0
+      rollup: ^2.23.1
       unified: ^9.1.0
   site:
     dependencies:
@@ -41,9 +41,9 @@ importers:
       '@rollup/plugin-alias': 3.1.1_rollup@2.23.1
       '@rollup/plugin-commonjs': 14.0.0_rollup@2.23.1
       '@rollup/plugin-node-resolve': 8.4.0_rollup@2.23.1
-      esbuild: 0.6.19
+      esbuild: 0.6.20
       rollup: 2.23.1
-      rollup-plugin-esbuild: 2.4.2_esbuild@0.6.19+rollup@2.23.1
+      rollup-plugin-esbuild: 2.4.2_esbuild@0.6.20+rollup@2.23.1
       rollup-plugin-glob-imports: 'link:../packages/rollup-plugin-glob-imports'
       rollup-plugin-markdown: 'link:../packages/rollup-plugin-markdown'
       rollup-plugin-svelte: 5.2.3_rollup@2.23.1+svelte@3.24.1
@@ -56,7 +56,7 @@ importers:
       '@rollup/plugin-commonjs': ^14.0.0
       '@rollup/plugin-node-resolve': ^8.4.0
       compression: ^1.7.4
-      esbuild: ^0.6.19
+      esbuild: ^0.6.20
       polka: ^0.5.2
       rollup: ^2.23.1
       rollup-plugin-esbuild: ^2.4.2
@@ -192,25 +192,12 @@ packages:
       rollup: ^1.20.0||^2.0.0
     resolution:
       integrity: sha512-LFqKdRLn0ShtQyf6SBYO69bGE1upV6wUhBX0vFOUnLAyzx5cwp8svA0eHUnu8+YU57XOkrMtfG63QOpQx25pHQ==
-  /@rollup/pluginutils/3.1.0:
-    dependencies:
-      '@types/estree': 0.0.39
-      estree-walker: 1.0.1
-      picomatch: 2.2.2
-    dev: false
-    engines:
-      node: '>= 8.0.0'
-    peerDependencies:
-      rollup: ^1.20.0||^2.0.0
-    resolution:
-      integrity: sha512-GksZ6pr6TpIjHm8h9lSQ8pi8BE9VeubNT0OMJ3B5uZJ8pz73NPiqOtCog/x2/QzM1ENChPKxMDhiQuRHsqc+lg==
   /@rollup/pluginutils/3.1.0_rollup@2.23.1:
     dependencies:
       '@types/estree': 0.0.39
       estree-walker: 1.0.1
       picomatch: 2.2.2
       rollup: 2.23.1
-    dev: true
     engines:
       node: '>= 8.0.0'
     peerDependencies:
@@ -477,12 +464,12 @@ packages:
     dev: true
     resolution:
       integrity: sha512-7dFHNmqeFSEt2ZBsCriorKnn3Z2pj+fd9kmI6QoWw4//DL+icEBfc0U7qJCisqrTsKTjw4fNFy2pW9OqStD84g==
-  /esbuild/0.6.19:
+  /esbuild/0.6.20:
     dev: true
     hasBin: true
     requiresBuild: true
     resolution:
-      integrity: sha512-yFoX6XKDNZKPMHWf3W7L40zWC7aCm3WPWucqs7U/4YQgQYbsjx08K5j7FUQ/9pwHNhMzrSzKFR6MdD4/V+L/Pw==
+      integrity: sha512-TR7HxD+sDJ1P67Loc8UDlRMeBEiJMS5L4yVLsiCwE48TyHDP7CGfkDHZDr9BKIFTK+0fuk7w/St1/PzBXpBRlQ==
   /escape-string-regexp/1.0.5:
     dev: true
     engines:
@@ -1143,10 +1130,10 @@ packages:
       node: '>=0.10.0'
     resolution:
       integrity: sha512-U9nH88a3fc/ekCF1l0/UP1IosiuIjyTh7hBvXVMHYgVcfGvt897Xguj2UOLDeI5BG2m7/uwyaLVT6fbtCwTyzw==
-  /rollup-plugin-esbuild/2.4.2_esbuild@0.6.19+rollup@2.23.1:
+  /rollup-plugin-esbuild/2.4.2_esbuild@0.6.20+rollup@2.23.1:
     dependencies:
       '@rollup/pluginutils': 3.1.0_rollup@2.23.1
-      esbuild: 0.6.19
+      esbuild: 0.6.20
       joycon: 2.2.5
       strip-json-comments: 3.1.1
     dev: true
