@@ -37,7 +37,7 @@ End this world, forever!
 You set my soul free  
 I won't lose the key to faith in myself  
 Like you said, it's in the bond, you've created to win  
-As a bond, spans in the whole universe  
+As a bond that spans in the whole universe  
 See the true light!
 
 We're not alone anymore  
@@ -80,7 +80,7 @@ We'll end this war, forever!
 Your soul is free, keep this in your hearts  
 You need a key, a belief, to save a loved one  
 Like you said, the truth lies in the bond, you've created with us  
-A bond, spans the whole universe  
+A bond that spans the whole universe  
 I see the true light!
 
 We're not alone, nothing can erase our memories  
