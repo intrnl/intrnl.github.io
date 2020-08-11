@@ -49,7 +49,7 @@ You're not alone anymore
 You are special to all the world, let love and light shine forth!  
 And the wishes, of every living thing, will come true  
 Open our eyes to the light of truth, make it a vow  
-We all arise!
+We are all ARKS!
 
 Believe in yourself...  
 Just don't lose hope in light...  
@@ -92,7 +92,7 @@ You're not alone, no one controls our destiny
 To all the world, let love and light shine forth!  
 And the wishes, of every living thing, will come true  
 Open our eyes, make it happen now  
-We are all up!
+We are all ARKS!
 
 Face it and survive...  
 Just don't lose in tomorrow!  
