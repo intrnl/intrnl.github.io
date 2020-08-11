@@ -1,0 +1,15 @@
+{
+	"private": true,
+	"name": "rollup-plugin-glob-imports",
+	"version": "1.0.0",
+	"dependencies": {
+		"fast-glob": "^3.2.4",
+		"upath": "^1.2.0"
+	},
+	"peerDependencies": {
+		"rollup": "^2.0.0"
+	},
+	"devDependencies": {
+		"rollup": "^2.0.0"
+	}
+}

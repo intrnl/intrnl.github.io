@@ -1,0 +1,9 @@
+node_modules/
+dist/
+__sapper__/
+
+npm-*.log
+pnpm-*.log
+yarn-*.log
+
+/content/posts/draft
