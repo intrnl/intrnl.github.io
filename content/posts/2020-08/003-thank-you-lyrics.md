@@ -13,14 +13,14 @@ Infinite bonds all throughout space and time
 Stories unfold promising futures untold  
 Sovereign light throughout the darkness  
 Hand in hand, here we stand  
-Under the unyielding the radiance of tomorrow
+Under the unyielding radiance of tomorrow
 
-How we have hoped new beginning  
-??? illuminating cosmic ???  
-Hope in our hearts, that we stand strong as one  
-Try to revive, our hearts (We are one, we are one)  
-We are one (We are one)  
-We are one (We are one)  
+Aria of new beginnings  
+Regal light illuminating cosmic seas alight  
+Know in your heart, that we stand strong as one  
+Sacrifice, overcome (We are one, we are one)  
+We are one (We are one)    
+We are one (We are one)    
 We are one! (one!)
 
 Thank you, thank you, from the bottom of my heart  
@@ -30,35 +30,36 @@ Sailing anew, all of our dreams come true
 Thank you for all the boundless joy you gave me
 
 Thank you, thank you, from the bottom of our hearts  
-You gave us strength, and courage to keep on  
+You gave us strength and courage to keep on  
 I'll live true to me, I'll live bright and free  
 I'll live on to make all brand new memories
 
 Phantasy Star...
 
-Seize the fall, fluttering through the wind  
-Blossoming through wistful days of sorrow  
+Seeds of hope, fluttering through the wind  
+Blossoming through wistful gales of sorrow  
 Sailing through, so deep into the unknown  
-Finally the storm subsides, masking all the pain  
-The sky is so mellow
+Finally the storm subsides  
+Basking all the painted skies of morrow
 
-Here I go, finally we made it (Oh, the Oracle)  
-??? (Lies ahead, color Phantasy)  
+A miracle, finally we've made it here (oh, the Oracle)  
+Relentless battles that brought us to our knees  
+(What lies ahead, our stellar fantasy)  
 Kept in my heart, that we all stood as one  
-(that we are that strong to cover as one)  
-Try to revive, our ??? (we may need to believe, together at the end)  
-We are one (We are one)  
-We are one (We are one)  
+(that we all stood strong together as one)  
+Sacrificed, overcame (we've made it to the end, together hand in hand)  
+We are one (We are one)    
+We are one (We are one)    
 We are one! (one!)
 
-Thank you, thank you, from the bottom of my heart  
+Thank you, thank you, from the bottom of our hearts  
 Our fates aligned, intertwined  
 A prelude to a brand new start  
 Sailing anew, all of our dreams come true  
 Thank you for all the boundless joy you gave us
 
 Thank you, thank you, from the bottom of our hearts  
-Finally all our dreams have come true  
+Finally all of our dreams have come true  
 I'll live up to be, I'll live out my dreams  
 I'll live out to make all brand new memories
 
@@ -72,31 +73,33 @@ Phantasy Star!
 
 Thank you, thank you, from the bottom of our hearts  
 All of our hearts and dreams have come true  
-But forever always be with you  
-Forever through and through  
+We'll forever always be with you  
+Forever, through and through  
 Into a new bright future together
 
 ...Phantasy Star!
 
 ---
 
-Stood against the odds  
-Here at last, a new bright future  
-Stood against the odds  
-Here at last, a new bright future
+Luminous!
 
-Unraveling stories (Unraveling)  
-Stories untold (Stories untold)  
-Unraveling times to be told  
+Stood against the odds  
+Here at last, a new bright future!  
+Stood against the odds  
+Here at last, a new bright future!
+
+Unraveling stories, unbeknownst to us  
+(Unravelling, stories untold)  
+Unravelling times to be told  
 Underneath the vivid sky of our dreams!
 
-Phantasy alight, our life  
+Phantasy alight, alive!  
 (All of our dreams come true)  
-Phantasy alight, our life  
+Phantasy alight, alive!  
 (Into a new bright future)  
 Phantasy Star shine, our dreams come true  
-Finally! (Finally!)  
-In The Whole New World!
+Finally! (finally!)  
+In the whole new world!
 
 Phantasy Star!  
 (Phantasy, Phantasy Star!)  
