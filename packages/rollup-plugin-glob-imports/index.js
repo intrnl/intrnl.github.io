@@ -11,28 +11,36 @@ function from64 (str) {
 	return JSON.parse(base64);
 }
 
+
+let template = `
+export let entries = {
+{{ENTRIES_PLACEHOLDER}}
+};
+
+export let size = {{ENTRIES_SIZE}};
+
+export function get (id) {
+	if (!entries[id]) throw new Error(\`\${id} not found\`);
+	return entries[id];
+}
+`;
+
 function createRuntimeCode (cwd, files) {
-	return [
-		'export let entries = {',
-		...files.map((file) => {
+	return template
+		.replace('{{ENTRIES_PLACEHOLDER}}', files.map((file) => {
 			let normal = path.normalizeSafe(file);
+
 			let resolved = !normal.startsWith('./') && !normal.startsWith('../')
 				? `./${normal}`
 				: normal;
-			let absolute = path.join(cwd, resolved);
 
-			return `  "${resolved}": () => import("${absolute}"),`;
-		}),
-		'};',
-		'',
-		`export let size = ${files.length};`,
-		'',
-		`export function get (id) {`,
-		'  if (!entries[id]) throw new Error(`${id} not found`);',
-		'  return entries[id]();',
-		'}',
-	].join('\n');
+				let absolute = path.join(cwd, resolved);
+
+				return `  '${resolved}': () => import('${absolute}'),`;
+		}).join('\n'))
+		.replace('{{ENTRIES_SIZE}}', files.length);
 }
+
 
 /** @type {import('rollup').RollupOptions} */
 function plugin (opts = {}) {
