@@ -9,15 +9,15 @@
 	"dependencies": {
 		"compression": "^1.7.4",
 		"polka": "^0.5.2",
-		"sirv": "^1.0.5"
+		"sirv": "^1.0.6"
 	},
 	"devDependencies": {
 		"@minna-ui/preprocess": "^0.36.0",
 		"@rollup/plugin-alias": "^3.1.1",
 		"@rollup/plugin-commonjs": "^14.0.0",
 		"@rollup/plugin-node-resolve": "^8.4.0",
-		"esbuild": "^0.6.20",
-		"rollup": "^2.23.1",
+		"esbuild": "^0.6.24",
+		"rollup": "^2.26.2",
 		"rollup-plugin-esbuild": "^2.4.2",
 		"rollup-plugin-glob-imports": "workspace:^1.0.0",
 		"rollup-plugin-markdown": "workspace:^1.0.0",

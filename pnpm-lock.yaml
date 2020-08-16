@@ -6,15 +6,15 @@ importers:
       fast-glob: 3.2.4
       upath: 1.2.0
     devDependencies:
-      rollup: 2.23.1
+      rollup: 2.26.2
     specifiers:
       fast-glob: ^3.2.4
-      rollup: ^2.23.1
+      rollup: ^2.26.2
       upath: ^1.2.0
   packages/rollup-plugin-markdown:
     dependencies:
       '@mapbox/rehype-prism': 0.5.0
-      '@rollup/pluginutils': 3.1.0_rollup@2.23.1
+      '@rollup/pluginutils': 3.1.0_rollup@2.26.2
       gray-matter: 4.0.2
       rehype-stringify: 8.0.0
       rehype-urls: 1.1.1
@@ -22,7 +22,7 @@ importers:
       remark-rehype: 7.0.0
       unified: 9.1.0
     devDependencies:
-      rollup: 2.23.1
+      rollup: 2.26.2
     specifiers:
       '@mapbox/rehype-prism': ^0.5.0
       '@rollup/pluginutils': ^3.1.0
@@ -31,25 +31,25 @@ importers:
       rehype-urls: ^1.1.1
       remark-parse: ^8.0.3
       remark-rehype: ^7.0.0
-      rollup: ^2.23.1
+      rollup: ^2.26.2
       unified: ^9.1.0
   site:
     dependencies:
       compression: 1.7.4
       polka: 0.5.2
-      sirv: 1.0.5
+      sirv: 1.0.6
     devDependencies:
       '@minna-ui/preprocess': 0.36.0_svelte@3.24.1
-      '@rollup/plugin-alias': 3.1.1_rollup@2.23.1
-      '@rollup/plugin-commonjs': 14.0.0_rollup@2.23.1
-      '@rollup/plugin-node-resolve': 8.4.0_rollup@2.23.1
-      esbuild: 0.6.20
-      rollup: 2.23.1
-      rollup-plugin-esbuild: 2.4.2_esbuild@0.6.20+rollup@2.23.1
+      '@rollup/plugin-alias': 3.1.1_rollup@2.26.2
+      '@rollup/plugin-commonjs': 14.0.0_rollup@2.26.2
+      '@rollup/plugin-node-resolve': 8.4.0_rollup@2.26.2
+      esbuild: 0.6.24
+      rollup: 2.26.2
+      rollup-plugin-esbuild: 2.4.2_esbuild@0.6.24+rollup@2.26.2
       rollup-plugin-glob-imports: 'link:../packages/rollup-plugin-glob-imports'
       rollup-plugin-markdown: 'link:../packages/rollup-plugin-markdown'
-      rollup-plugin-svelte: 5.2.3_rollup@2.23.1+svelte@3.24.1
-      rollup-plugin-terser: 7.0.0_rollup@2.23.1
+      rollup-plugin-svelte: 5.2.3_rollup@2.26.2+svelte@3.24.1
+      rollup-plugin-terser: 7.0.0_rollup@2.26.2
       sapper: 0.28.0_svelte@3.24.1
       svelte: 3.24.1
     specifiers:
@@ -58,16 +58,16 @@ importers:
       '@rollup/plugin-commonjs': ^14.0.0
       '@rollup/plugin-node-resolve': ^8.4.0
       compression: ^1.7.4
-      esbuild: ^0.6.20
+      esbuild: ^0.6.24
       polka: ^0.5.2
-      rollup: ^2.23.1
+      rollup: ^2.26.2
       rollup-plugin-esbuild: ^2.4.2
       rollup-plugin-glob-imports: 'workspace:^1.0.0'
       rollup-plugin-markdown: 'workspace:^1.0.0'
       rollup-plugin-svelte: ^5.2.3
       rollup-plugin-terser: ^7.0.0
       sapper: ^0.28.0
-      sirv: ^1.0.5
+      sirv: ^1.0.6
       svelte: ^3.24.1
 lockfileVersion: 5.1
 packages:
@@ -98,7 +98,7 @@ packages:
   /@mapbox/rehype-prism/0.5.0:
     dependencies:
       hast-util-to-string: 1.0.4
-      refractor: 3.0.0
+      refractor: 3.1.0
       unist-util-visit: 2.0.3
     dev: false
     engines:
@@ -149,9 +149,9 @@ packages:
     dev: false
     resolution:
       integrity: sha512-3NsZsJIA/22P3QUyrEDNA2D133H4j224twJrdipXN38dpnIOzAbUDtOwkcJ5pXmn75w7LSQDjA4tO9dm1XlqlA==
-  /@rollup/plugin-alias/3.1.1_rollup@2.23.1:
+  /@rollup/plugin-alias/3.1.1_rollup@2.26.2:
     dependencies:
-      rollup: 2.23.1
+      rollup: 2.26.2
       slash: 3.0.0
     dev: true
     engines:
@@ -160,16 +160,16 @@ packages:
       rollup: ^1.20.0||^2.0.0
     resolution:
       integrity: sha512-hNcQY4bpBUIvxekd26DBPgF7BT4mKVNDF5tBG4Zi+3IgwLxGYRY0itHs9D0oLVwXM5pvJDWJlBQro+au8WaUWw==
-  /@rollup/plugin-commonjs/14.0.0_rollup@2.23.1:
+  /@rollup/plugin-commonjs/14.0.0_rollup@2.26.2:
     dependencies:
-      '@rollup/pluginutils': 3.1.0_rollup@2.23.1
+      '@rollup/pluginutils': 3.1.0_rollup@2.26.2
       commondir: 1.0.1
       estree-walker: 1.0.1
       glob: 7.1.6
       is-reference: 1.2.1
       magic-string: 0.25.7
       resolve: 1.17.0
-      rollup: 2.23.1
+      rollup: 2.26.2
     dev: true
     engines:
       node: '>= 8.0.0'
@@ -177,16 +177,16 @@ packages:
       rollup: ^2.3.4
     resolution:
       integrity: sha512-+PSmD9ePwTAeU106i9FRdc+Zb3XUWyW26mo5Atr2mk82hor8+nPwkztEjFo8/B1fJKfaQDg9aM2bzQkjhi7zOw==
-  /@rollup/plugin-node-resolve/8.4.0_rollup@2.23.1:
+  /@rollup/plugin-node-resolve/8.4.0_rollup@2.26.2:
     dependencies:
-      '@rollup/pluginutils': 3.1.0_rollup@2.23.1
+      '@rollup/pluginutils': 3.1.0_rollup@2.26.2
       '@types/resolve': 1.17.1
       builtin-modules: 3.1.0
       deep-freeze: 0.0.1
       deepmerge: 4.2.2
       is-module: 1.0.0
       resolve: 1.17.0
-      rollup: 2.23.1
+      rollup: 2.26.2
     dev: true
     engines:
       node: '>= 8.0.0'
@@ -194,12 +194,12 @@ packages:
       rollup: ^1.20.0||^2.0.0
     resolution:
       integrity: sha512-LFqKdRLn0ShtQyf6SBYO69bGE1upV6wUhBX0vFOUnLAyzx5cwp8svA0eHUnu8+YU57XOkrMtfG63QOpQx25pHQ==
-  /@rollup/pluginutils/3.1.0_rollup@2.23.1:
+  /@rollup/pluginutils/3.1.0_rollup@2.26.2:
     dependencies:
       '@types/estree': 0.0.39
       estree-walker: 1.0.1
       picomatch: 2.2.2
-      rollup: 2.23.1
+      rollup: 2.26.2
     engines:
       node: '>= 8.0.0'
     peerDependencies:
@@ -466,12 +466,12 @@ packages:
     dev: true
     resolution:
       integrity: sha512-7dFHNmqeFSEt2ZBsCriorKnn3Z2pj+fd9kmI6QoWw4//DL+icEBfc0U7qJCisqrTsKTjw4fNFy2pW9OqStD84g==
-  /esbuild/0.6.20:
+  /esbuild/0.6.24:
     dev: true
     hasBin: true
     requiresBuild: true
     resolution:
-      integrity: sha512-TR7HxD+sDJ1P67Loc8UDlRMeBEiJMS5L4yVLsiCwE48TyHDP7CGfkDHZDr9BKIFTK+0fuk7w/St1/PzBXpBRlQ==
+      integrity: sha512-usGuyo+DpQmrTguh/IOK8DBAvQ4CU7xdDtr7h/2iEK/BwBdrkpxut/uYzYaRh6ljMSSZWVJdaQgu2aOgz7m6ag==
   /escape-string-regexp/1.0.5:
     dev: true
     engines:
@@ -1024,12 +1024,12 @@ packages:
       node: '>=6.0.0'
     resolution:
       integrity: sha512-03eXong5NLnNCD05xscnGKGDZ98CyzoqPSMjOe6SuoQY7Z2hIj0Ld1g/O/UQRuOle2aRtiIRDg9tDcTGAkLfKw==
-  /prismjs/1.20.0:
+  /prismjs/1.21.0:
     dev: false
     optionalDependencies:
       clipboard: 2.0.6
     resolution:
-      integrity: sha512-AEDjSrVNkynnw6A+B1DsFkd6AVdTnp+/WoUixFRULlCLZVRZlVQMVWio/16jv7G1FscUxQxOQhWwApgbnxr6kQ==
+      integrity: sha512-uGdSIu1nk3kej2iZsLyDoJ7e9bnPzIgY0naW/HdknGj61zScaprVEVGHrPoXqI+M9sP0NDnTK2jpkvmldpuqDw==
   /property-information/5.5.0:
     dependencies:
       xtend: 4.0.2
@@ -1042,14 +1042,14 @@ packages:
     dev: true
     resolution:
       integrity: sha512-vYl3iOX+4CKUWuxGi9Ukhie6fsqXqS9FE2Zaic4tNFD2N2QQaXOMFbuKK4QmDHC0JO6B1Zp41J0LpT0oR68amQ==
-  /refractor/3.0.0:
+  /refractor/3.1.0:
     dependencies:
       hastscript: 5.1.2
       parse-entities: 2.0.0
-      prismjs: 1.20.0
+      prismjs: 1.21.0
     dev: false
     resolution:
-      integrity: sha512-eCGK/oP4VuyW/ERqjMZRZHxl2QsztbkedkYy/SxqE/+Gh1gLaAF17tWIOcVJDiyGhar1NZy/0B9dFef7J0+FDw==
+      integrity: sha512-bN8GvY6hpeXfC4SzWmYNQGLLF2ZakRDNBkgCL0vvl5hnpMrnyURk8Mv61v6pzn4/RBHzSWLp44SzMmVHqMGNww==
   /rehype-stringify/8.0.0:
     dependencies:
       hast-util-to-html: 7.1.1
@@ -1132,10 +1132,10 @@ packages:
       node: '>=0.10.0'
     resolution:
       integrity: sha512-U9nH88a3fc/ekCF1l0/UP1IosiuIjyTh7hBvXVMHYgVcfGvt897Xguj2UOLDeI5BG2m7/uwyaLVT6fbtCwTyzw==
-  /rollup-plugin-esbuild/2.4.2_esbuild@0.6.20+rollup@2.23.1:
+  /rollup-plugin-esbuild/2.4.2_esbuild@0.6.24+rollup@2.26.2:
     dependencies:
-      '@rollup/pluginutils': 3.1.0_rollup@2.23.1
-      esbuild: 0.6.20
+      '@rollup/pluginutils': 3.1.0_rollup@2.26.2
+      esbuild: 0.6.24
       joycon: 2.2.5
       strip-json-comments: 3.1.1
     dev: true
@@ -1146,10 +1146,10 @@ packages:
       rollup: '*'
     resolution:
       integrity: sha512-GJOaC2onOPcCN0w7tYv60Thg3ciX40YRubeGyS/DRo862udAiFuQGTIBSyNX20EWyvYLZmZ967ziGdzUJtIaAg==
-  /rollup-plugin-svelte/5.2.3_rollup@2.23.1+svelte@3.24.1:
+  /rollup-plugin-svelte/5.2.3_rollup@2.26.2+svelte@3.24.1:
     dependencies:
       require-relative: 0.8.7
-      rollup: 2.23.1
+      rollup: 2.26.2
       rollup-pluginutils: 2.8.2
       sourcemap-codec: 1.4.8
       svelte: 3.24.1
@@ -1159,13 +1159,13 @@ packages:
       svelte: '*'
     resolution:
       integrity: sha512-513vOht9A93OV7fvmpIq8mD1JFgTZ5LidmpULKM2Od9P1l8oI5KwvO32fwCnASuVJS1EkRfvCnS7vKQ8DF4srg==
-  /rollup-plugin-terser/7.0.0_rollup@2.23.1:
+  /rollup-plugin-terser/7.0.0_rollup@2.26.2:
     dependencies:
       '@babel/code-frame': 7.10.4
       jest-worker: 26.3.0
-      rollup: 2.23.1
+      rollup: 2.26.2
       serialize-javascript: 4.0.0
-      terser: 5.0.0
+      terser: 5.1.0
     dev: true
     peerDependencies:
       rollup: ^2.0.0
@@ -1177,7 +1177,7 @@ packages:
     dev: true
     resolution:
       integrity: sha512-EEp9NhnUkwY8aif6bxgovPHMoMoNr2FulJziTndpt5H9RdwC47GSGuII9XxpSdzVGM0GWrNPHV6ie1LTNJPaLQ==
-  /rollup/2.23.1:
+  /rollup/2.26.2:
     dev: true
     engines:
       node: '>=10.0.0'
@@ -1185,7 +1185,7 @@ packages:
     optionalDependencies:
       fsevents: 2.1.3
     resolution:
-      integrity: sha512-Heyl885+lyN/giQwxA8AYT2GY3U+gOlTqVLrMQYno8Z1X9lAOpfXPiKiZCyPc25e9BLJM3Zlh957dpTlO4pa8A==
+      integrity: sha512-dQOms6XRPGHS5Chq7JkkkGXeO72hzWuftB4Rba0rMIT5lThvcEXLTgjrp6+ehhUlsFraOfvcF0Q8dRoQ/X68WQ==
   /run-parallel/1.1.9:
     dev: false
     resolution:
@@ -1236,7 +1236,7 @@ packages:
     dev: true
     resolution:
       integrity: sha512-Imf4gH+8WQmT1GvxS/x79qpmfnE6m50hyN1ucatX+7oMCgmaF8obZWCPIzSUe6+P+YmXM46lkP2pxiV2/lt9Og==
-  /sirv/1.0.5:
+  /sirv/1.0.6:
     dependencies:
       '@polka/url': 1.0.0-next.11
       mime: 2.4.6
@@ -1245,7 +1245,7 @@ packages:
     engines:
       node: '>= 10'
     resolution:
-      integrity: sha512-VBGinItX5MJXafH0FmVsc2G5INwmd9ygT05DVdEw2piBBKRNUBGy3Aq0SmpVzP121astWFE2XERNJOggrQcUww==
+      integrity: sha512-LRGu7Op4Xl9hhigOy2kcB53zAYTjNDdpooey49dIU0cMdpOv9ithVf7nstk3jvs8EhMiT/VORoyazZYGgw4vnA==
   /slash/3.0.0:
     dev: true
     engines:
@@ -1342,7 +1342,7 @@ packages:
       node: '>= 8'
     resolution:
       integrity: sha512-OX/IBVUJSFo1rnznXdwf9rv6LReJ3qQ0PwRjj76vfUWyTfbHbR9OXqJBnUrpjyis2dwYcbT2Zm1DFjOOF1ZbbQ==
-  /terser/5.0.0:
+  /terser/5.1.0:
     dependencies:
       commander: 2.20.3
       source-map: 0.6.1
@@ -1352,7 +1352,7 @@ packages:
       node: '>=6.0.0'
     hasBin: true
     resolution:
-      integrity: sha512-olH2DwGINoSuEpSGd+BsPuAQaA3OrHnHnFL/rDB2TVNc3srUbz/rq/j2BlF4zDXI+JqAvGr86bIm1R2cJgZ3FA==
+      integrity: sha512-pwC1Jbzahz1ZPU87NQ8B3g5pKbhyJSiHih4gLH6WZiPU8mmS1IlGbB0A2Nuvkj/LCNsgIKctg6GkYwWCeTvXZQ==
   /tiny-emitter/2.1.0:
     dev: false
     optional: true
