@@ -4,16 +4,21 @@ description: 『PHANTASY STAR ONLINE 2』 Primordial Darkness Battle Theme
 date: 2020-08-08
 ---
 
-We rise  
-Up from the bottom of the depth  
+We rise, up from the bottom of the depth  
 To forge a path  
 Starlight shines through the darkness  
-Heralding new hope
+(Starlight shines through the dark)  
+Heralding new hope  
+(Heralding new hope)  
 
 A hopeless world  
-With the imposter's key falling  
+(A hopeless world)  
+With the reaper's tears keep falling  
+(With the raider's song and prayers bring us the believer)  
 Break these chains of pain  
-That's the only path left
+(Break these chains of pain)  
+That's the only path left  
+(A voice leads us, now the only path)  
 
 Hey, what did you say?  
 or what I said?  
