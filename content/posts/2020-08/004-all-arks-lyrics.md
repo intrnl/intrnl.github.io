@@ -1,6 +1,6 @@
 ---
 title: 「All ARKS」 Lyrics
-description: 『PHANTASY STAR ONLINE 2』 Fleet Interception Battle Theme
+description: 『PHANTASY STAR ONLINE 2』 Armada of Demise Battle Theme
 date: 2020-08-11
 ---
 
