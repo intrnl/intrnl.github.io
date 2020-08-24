@@ -1,6 +1,6 @@
 ---
 title: 「Dark to Light」 Lyrics
-description: 『PHANTASY STAR ONLINE 2』 Primordial Darkness Battle Theme
+description: 『PHANTASY STAR ONLINE 2』 Primordial Darkness Sodom Battle Theme
 date: 2020-08-08
 ---
 
