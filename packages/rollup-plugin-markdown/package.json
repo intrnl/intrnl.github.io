@@ -10,12 +10,12 @@
 		"rehype-urls": "^1.1.1",
 		"remark-parse": "^8.0.3",
 		"remark-rehype": "^7.0.0",
-		"unified": "^9.1.0"
+		"unified": "^9.2.0"
 	},
 	"peerDependencies": {
 		"rollup": "^2.0.0"
 	},
 	"devDependencies": {
-		"rollup": "^2.26.2"
+		"rollup": "^2.26.5"
 	}
 }
