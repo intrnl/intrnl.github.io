@@ -37,7 +37,7 @@ I'll save you next time
 
 You made me stronger  
 This future is both, yours and mine  
-End this world, forever!
+End this war, forever!
 
 You set my soul free  
 I won't lose the key to faith in myself  
