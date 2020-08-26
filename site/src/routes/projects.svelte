@@ -120,7 +120,7 @@
 						{/if}
 						{#if item.npm}
 							<small>
-								<ExtLink url={'https://npm.im' + item.npm}>NPM</ExtLink>
+								<ExtLink url={'https://npm.im/' + item.npm}>NPM</ExtLink>
 							</small>
 						{/if}
 						{#if item.source}
