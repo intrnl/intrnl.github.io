@@ -30,30 +30,35 @@
 					description: 'Simple global state management',
 					license: 'MIT',
 					source: 'https://github.com/intrnl/substate',
+					npm: '@intrnl/substate',
 				},
 				{
 					name: 'rodo',
 					description: 'Simple filesystem router',
 					license: 'MIT',
 					source: 'https://github.com/intrnl/rodo',
+					npm: '@intrnl/rodo'
 				},
 				{
 					name: 'styl',
 					description: 'Lightweight CSS-in-JS runtime',
 					license: 'MIT',
 					source: 'https://github.com/intrnl/styl',
+					npm: '@intrnl/styl',
 				},
 				{
 					name: 'styleprops',
 					description: 'CSS custom properties concat helper',
 					license: 'MIT',
 					source: 'https://github.com/intrnl/styleprops',
+					npm: '@intrnl/styleprops',
 				},
 				{
 					name: 'fe',
 					description: 'Glorified fetch wrapper',
 					license: 'MIT',
 					source: 'https://github.com/intrnl/fe',
+					npm: '@intrnl/fe',
 				},
 			],
 		},
@@ -65,12 +70,14 @@
 					description: 'Svelte integration for Vite',
 					license: 'MIT',
 					source: 'https://github.com/intrnl/vite-plugin-svelte',
+					npm: 'vite-plugin-svelte',
 				},
 				{
 					name: 'vite-plugin-external-worker',
 					description: 'Vite plugin for external bundling of web workers',
 					license: 'MIT',
 					source: 'https://github.com/intrnl/vite-plugin-external-worker',
+					npm: 'vite-plugin-external-worker',
 				},
 			],
 		},
@@ -113,7 +120,7 @@
 						{/if}
 						{#if item.npm}
 							<small>
-								<ExtLink url={item.npm}>NPM</ExtLink>
+								<ExtLink url={'https://npm.im' + item.npm}>NPM</ExtLink>
 							</small>
 						{/if}
 						{#if item.source}
