@@ -1,4 +1,5 @@
 import * as posts from '@/lib/posts';
+import { stringify } from '@/utils/json';
 
 
 let POSTS_PER_PAGE = 10;
@@ -11,7 +12,7 @@ export async function get (req, res) {
 
 	if (req.params.page !== page.toString() || page < 1 || start > posts.size) {
 		res.writeHead(404, { 'Content-Type': 'application/json' });
-		res.end(JSON.stringify({ message: 'Page not found' }));
+		res.end(stringify({ message: 'Page not found' }));
 		return;
 	}
 
@@ -24,5 +25,5 @@ export async function get (req, res) {
 	let items = await Promise.all(promises);
 
 	res.writeHead(200, { 'Content-Type': 'application/json' });
-	res.end(JSON.stringify({ page, prev, next, items }));
+	res.end(stringify({ page, prev, next, items }));
 }

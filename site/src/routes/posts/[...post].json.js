@@ -1,4 +1,5 @@
 import * as posts from '@/lib/posts';
+import { stringify } from '@/utils/json';
 
 
 export async function get (req, res) {
@@ -7,9 +8,9 @@ export async function get (req, res) {
 
 	if (posts.entries[id]) {
 		res.writeHead(200, { 'Content-Type': 'application/json' });
-		res.end(JSON.stringify(await posts.get(id)));
+		res.end(stringify(await posts.get(id)));
 	} else {
 		res.writeHead(404, { 'Content-Type': 'application/json' });
-		res.end(JSON.stringify({ message: 'Post not found' }));
+		res.end(stringify({ message: 'Post not found' }));
 	}
 }
