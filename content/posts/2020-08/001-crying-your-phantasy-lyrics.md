@@ -5,7 +5,7 @@ date: 2020-08-08
 ---
 
 What should I do for you?  
-What was my real wish, ah  
+What was my real wish, ah...  
 The right path, I can't find it anymore  
 I never meant to hurt you  
 But you are very bright
