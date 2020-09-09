@@ -54,6 +54,13 @@
 					npm: '@intrnl/styleprops',
 				},
 				{
+					name: 'dotprop',
+					description: 'Safely access or modify object properties with dot-notated path',
+					license: 'MIT',
+					source: 'https://github.com/intrnl/dotprop',
+					npm: '@intrnl/dotprop',
+				},
+				{
 					name: 'fe',
 					description: 'Glorified fetch wrapper',
 					license: 'MIT',
