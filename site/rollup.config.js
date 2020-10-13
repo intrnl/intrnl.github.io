@@ -53,7 +53,7 @@ let config = {
 			}),
 			esbuild({
 				watch: dev,
-				target: 'es2018',
+				target: 'es2017',
 				include: ['*.svelte', '*.mjs', '*.js'],
 				exclude: [],
 				define: {
