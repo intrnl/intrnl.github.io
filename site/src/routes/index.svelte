@@ -10,9 +10,10 @@
 <DefaultView>
   <h1>Hello.</h1>
   <p>I'm intrnl. I poke things for fun.</p>
+	<p>Should probably get around to redoing this site.</p>
 
-  <p>You can find me at:</p>
   <ul>
+		<li><ExtLink url='https://intrnl.github.io/cv'>CV/Resume</ExtLink></li>
     <li><ExtLink url='https://github.com/intrnl'>GitHub</ExtLink></li>
     <li><ExtLink url='https://twitter.com/intrnl0'>Twitter</ExtLink></li>
     <li><ExtLink url='https://anilist.co/user/intrnl'>AniList</ExtLink></li>
