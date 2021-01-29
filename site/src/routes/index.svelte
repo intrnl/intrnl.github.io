@@ -13,7 +13,7 @@
 	<p>Should probably get around to redoing this site.</p>
 
   <ul>
-		<li><ExtLink url='https://intrnl.github.io/cv'>CV/Resume</ExtLink></li>
+		<li><ExtLink url='https://intrnl.github.io/resume'>Resume</ExtLink></li>
     <li><ExtLink url='https://github.com/intrnl'>GitHub</ExtLink></li>
     <li><ExtLink url='https://twitter.com/intrnl0'>Twitter</ExtLink></li>
     <li><ExtLink url='https://anilist.co/user/intrnl'>AniList</ExtLink></li>
